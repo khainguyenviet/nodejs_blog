@@ -27,8 +27,11 @@
     "src/**/*.{js,json,scss}": "prettier --single-quote --trailing-comma all --write"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "express-handlebars": "^5.3.3"
+    "express-handlebars": "^5.3.3",
+    "mongoose": "^5.13.8",
+    "mongoose-slug-generator": "^1.0.4"
   },
   "devDependencies": {
     "lint-staged": "^11.1.2",
